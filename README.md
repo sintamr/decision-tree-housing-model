@@ -1,9 +1,14 @@
-# 🏡 Prediksi Harga Rumah Boston
+# 🏡 Prediksi Harga Rumah Boston dengan Decision Tree Regressor
 
-Proyek ini bertujuan untuk membangun model prediksi harga rumah di kota Boston menggunakan algoritma **Decision Tree Regressor**, serta mengevaluasi performanya berdasarkan berbagai metrik dan visualisasi.
+<p align="center">
+  <img src="images 1.jpg" width="869"><br>
+  <sub>
+    Photo by <a href="https://unsplash.com/@jhueser?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jalen Hueser</a> on <a href="https://unsplash.com/photos/white-and-brown-house-near-green-trees-under-blue-sky-during-daytime-n7cVRKu5ft0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  </sub>
+</p>
 
 # Deskripsi Proyek
-Proyek ini bertujuan untuk memprediksi harga rumah di wilayah Boston menggunakan model Decision Tree Regressor. Dataset yang digunakan
+Proyek ini bertujuan untuk memprediksi harga rumah di wilayah Boston menggunakan model ***Decision Tree Regressor***, serta mengevaluasi performanya berdasarkan berbagai metrik dan visualisasi.. Dataset yang digunakan
 adalah Boston Housing dan target prediksinya adalah MEDV (Median value of owner-occupied homes dalam ribuan dolar).
 
 ## Dataset
@@ -89,5 +94,20 @@ Berikut adalah scatter plot antara harga rumah aktual dan hasil prediksi dari mo
 
 Model menghasilkan **R² Score sebesar 0.696**, menunjukkan bahwa sekitar 69.6% variasi harga rumah dapat dijelaskan oleh model.
 
+## Kesimpulan
+- Model Decision Tree memberikan performa cukup baik (R² ≈ 0.696).
+- Model cukup mampu mengikuti pola harga rumah berdasarkan fitur-fiturnya.
+- Fitur paling penting: `RM` dan `LSTAT`
+- Masih terdapat error pada beberapa prediksi (underprediction & overprediction), yang bisa ditingkatkan dengan:
+  - Model yang lebih kompleks seperti Random Forest
+  - Hyperparameter tuning
+  - Feature engineering tambahan
+
+## 👩‍💻 Author
+
+**Sinta Miftakhul Rohmah**  
+Applied Mathematics student  
+Universitas Islam Negeri Sunan Kalijaga, Yogyakarta  
+📫 [LinkedIn](https://www.linkedin.com/in/sintamiftakhulr/)
 
 
